@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+}
+.container {
+background-color: bisque;
+height:200px;
+border:2px solid black
+}
+.child1{
+    background-color: rgb(245, 158, 27);
+    color: aliceblue;
+    width: 300px;
+    height: 300px;
+    border:1px dotted black;
+}
