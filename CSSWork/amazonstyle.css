@@ -1,0 +1,92 @@
+body{
+    background-color: beige;
+    margin: 0px;
+}
+.container{
+  display: grid;
+    grid-template-columns: repeat(12,1fr);
+    /* grid-template-rows: repeat(4,1fr); */
+}
+.header{
+    grid-row: 1/2;
+    grid-column: 1/13;
+    background-color: black;
+    height: 70px;
+    border:1px solid red;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+.img{
+    margin-left:-90px ;
+}
+.navbar{
+    grid-row: 2/3;
+    grid-column: 1/13;
+    background-color: black;
+    border: 1px solid yellowgreen;
+    color: white;
+
+}
+ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 30px;
+}
+li:hover{
+    background-color: aquamarine;
+
+    
+}
+.wallpaper{
+    grid-row: 3/5;
+    grid-column: 1/13;
+ 
+}
+.cards{
+    grid-row: 4/7;
+    grid-column: 1/13;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card1,.card2,.card3,.card4{
+height: 400px;
+width: 350px;
+border: 1px solid red;
+background-color: white;
+
+}
+
+
+   
+
+.something{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows:repeat(2,1fr) ;
+}
+.card11 img{
+    background-color: blue;
+    height: 70%;
+    width: 100%;
+}
+.card12{
+    background-color: rgb(0, 255, 98);  
+}
+.card13{
+    background-color: rgb(249, 33, 210);
+}
+.card14{
+    background-color: rgb(221, 21, 21);
+}
+.text{
+  display: flex;
+  justify-content: space-between;
+  color: red;
+
+}
+
